@@ -1,0 +1,83 @@
+.letter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./plants_bacground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.letter h1 {
+    font-family: Fahkwang, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #fff; 
+}
+
+.letter form {
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group h3 {
+    font-family: Fahkwang, sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.input-group input[type="text"],
+.input-group textarea,
+.input-group input[type="email"],
+.input-group select{
+    font-size: 18px;
+    padding: 15px;
+    border: 5px white;
+}
+
+.input-group input[type="text"],
+.input-group textarea,
+.input-group input[type="email"]{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input-group select{
+    width: 104.5%;
+    border-radius: none;
+}
+
+.input-group input[type="text"]:focus,
+.input-group textarea:focus,
+.input-group input[type="email"]:focus,
+.input-group select:focus {
+    outline: none;
+    border: 5px #287494;
+}
+
+.letter button {
+    width: 20%;
+    padding: 15px;
+    background-color: #1c8274; 
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.letter button:hover {
+    background-color: #02676b; 
+}

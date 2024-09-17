@@ -1,0 +1,46 @@
+.step-plan{
+    display: flex;
+    padding: 100px;
+    margin: 10px;
+    display: center;
+}
+      
+    .step-plan-text{
+        flex: 1;
+    }
+    .step-plan-text h1{
+        font-family: Fahkwang;
+        font-size: 66px;
+    }
+    .step-plan-text p{
+        color:#34494a;
+        font-family: sans-serif;
+        font-size: 22px;
+    }
+    .step-plan a{
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        color: white;
+        background-color: #1c8274;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 22px;
+    }
+    
+    .step-plan a:hover{
+        background-color: #02676b;
+    }
+      
+    .step-plan-image{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .step-plan-image img{
+        max-width: 100%;
+        height: auto;
+    }  

@@ -1,0 +1,85 @@
+.continfolinks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(30, 40, 51);
+    color: white;
+    text-decoration: none;
+}
+
+.table-container {
+    width: 100%;
+    max-width: max;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px;
+}
+
+th {
+    font-family: Fahkwang;
+    font-size: 22px;
+}
+td a {
+    font-size: 18px;
+    font-family: Fahkwang, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+button{
+    width: 25%;
+    padding: 10px;
+    background-color: #1c8274; 
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 5px;
+    font-family: Fahkwang, sans-serif;
+}
+td a:hover {
+    color: rgb(151, 151, 151);
+}
+
+.two-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: max;
+}
+
+.two-links div {
+    flex: 1;
+}
+
+.two-links a {
+    display: flex;
+    justify-content: space-around;
+    font-family: Fahkwang, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    color:white;
+    text-decoration: none;
+}
+
+.two-links a img {
+    width: 24px;
+    height: 24px;
+    text-align:right;
+    color:white;
+    text-decoration: none;
+}
+
+.two-links a:hover {
+    color: rgb(151, 151, 151);
+}

@@ -1,0 +1,64 @@
+.TwoColumns {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  gap: 30px;
+}
+
+.LeftColumn, .RightColumn {
+  flex: 1;
+  max-width: 40%;
+}
+
+.LeftColumn > div, .RightColumn > div {
+  background-color: #dce3dd;
+  border-radius: 5px;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.checkbox {
+  background-color: #1c8274;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.checkbox:hover {
+  background-color: #02676b;
+  font-size: 25px;
+}
+
+.LeftFirstColumnTop, .LeftSecondColumnTop, .LeftThirdColumnTop,
+.RightFirstColumnTop, .RightSecondColumnTop, .RightThirdColumnTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LeftFirstColumn h3, .LeftSecondColumn h3, .LeftThirdColumn h3,
+.RightFirstColumn h3, .RightSecondColumn h3, .RightThirdColumn h3 {
+  font-family: Fahkwang, sans-serif;
+}
